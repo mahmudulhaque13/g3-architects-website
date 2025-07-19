@@ -209,7 +209,7 @@ font-size: 2.8rem;
     .navbar, .nav-links, .team{
     flex-direction: column;
     }
-     .team-img, .facts-container .sponsor-companies{
+     .team-img, .facts-container, .sponsor-companies{
         grid-template-columns: repeat(1, 1fr);
      }
      .team-content{
@@ -239,7 +239,7 @@ font-size: 2.8rem;
         .team-content{
             margin: 50px auto;
         }
-        .facts-container .sponsor-companies{
+        .facts-container, .sponsor-companies{
             grid-template-columns: repeat(2, 1fr);
         }
         
